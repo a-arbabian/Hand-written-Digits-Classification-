@@ -17,7 +17,7 @@ model.add(tf.keras.layers.Flatten())
 # Add hidden layers, Dense args:(#neurons, activation func)
 model.add(tf.keras.layers.Dense(256, activation=tf.nn.relu))
 model.add(tf.keras.layers.Dense(256, activation=tf.nn.relu))
-# Add output later, 
+# Add output layer, 
 model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
 
 # Train
